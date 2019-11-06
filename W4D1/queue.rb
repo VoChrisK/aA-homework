@@ -21,7 +21,7 @@ class Queue
     end
 
     def show
-        p @queue
+        puts @queue
         self
     end
 end

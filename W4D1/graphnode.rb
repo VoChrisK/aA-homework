@@ -52,7 +52,7 @@ def _bfs(starting_node, adj_list, target_value)
     end
 
     reset_visited(adj_list)
-    puts queue.show
+    print queue.show
     nil
 end
 
