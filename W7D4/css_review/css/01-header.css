@@ -1,0 +1,51 @@
+/* PHASE 1: Header */
+
+body {
+  /* Write your css here... */
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: #eee;
+}
+
+.header {
+  background-color: red;
+  color: white;
+  border-bottom: gray solid 1px;
+}
+
+.header a {
+  padding: 15px;
+  display: block;
+}
+
+.header-nav {
+  border-right: white solid 1px;
+  border-left: white solid 1px;
+  width: 1560px;
+  margin: auto;
+}
+
+/* # Specifications
+
+## Colors
+- Black: #000
+- White: #fff
+- Dark Gray: #aaa
+- Gray: #ccc
+- Light Gray: #eee
+- Red: #f00
+
+## Type
+- Font Family: sans-serif
+- Font Weights: 400, 700
+- Font Sizes: 24px, 16px, 14px
+
+## Borders
+- Thickness: 1px
+
+## Layout
+- Whitespace: 5px, 10px, 20px
+- Total Size Container: 900px
+- Total Size Sidebar: 240px
+- Total Size Content: 660px */
