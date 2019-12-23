@@ -1,0 +1,46 @@
+/* PHASE 1: Header */
+body {
+    font-size: 24px;
+    font-family: 'Ma Shan Zheng';
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    background-color: red;
+    border-bottom: 1px outset darkgray;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-list {
+    display: inherit;
+}
+
+.header-logo, .header-list > li {
+    padding: 18px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-collapse: collapse;
+}
+
+
+.header-logo:hover, .header-list > li:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.header-list > li {
+    display: block;
+}
+
+.header-list > li:first-child {
+    border-right: none;
+}
+
+.header-list > li:last-child {
+    border-left: none;
+}
